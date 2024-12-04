@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e1e1e1;
+}
+
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.intro, .databaselist {
+    transition: opacity 0.5s ease 0.5s;
+}
+
+nav {
+    margin: 0;
+}
+.topbar {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navtitle {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    background-color: yellow;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.links li {
+    background: mediumaquamarine;
+}
+
+.links a {
+    display: block;
+    padding: 18px 18px;
+
+}
+
+.links a:hover {
+    background-color: forestgreen;
+}
+
+.floating-box {
+   padding: 50px;
+    background: rgb(255, 153, 50);
+    align-content: center;
+    justify-items: center;
+}
+.profile-all {
+    width: 75vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: gray;
+}
+
+.database-info {
+    background-color: mediumaquamarine;
+    padding: 10px;
+    margin-bottom: 10px;
+ }
+.profile-nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: pink;
+    width: 100%;
+}
+.faux-icons {
+    background-color: mediumvioletred;
+    padding: 5px;
+    text-align: right;
+}
+.profile-dropdown {
+    background-color: red;
+    padding: 5px;
+ text-align: left;
+ }
+ 
+#profile-img {
+    aspect-ratio: 1/1;
+    height: 18rem;
+    max-height: 18rem;
+    background-image: url(assets/flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table {
+    flex-grow: 3;
+    min-width: 300px;
+    border-spacing: 5px;
+    background-color: plum;
+}
+
+td, th {
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 5px;
+    padding: 5px;
+    height: 35px;
+}
+
+th {
+    border: none;
+    text-align: left;
+}
