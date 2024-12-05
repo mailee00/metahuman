@@ -1,92 +1,92 @@
 <DATABASE>
 <STUDENT>
 <NAME>Chassidy Barker</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>USA</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>Hackers</AFFILIATION>
+<POWER>Super Intelligence</POWER>
+<PROFILE>Known super hacker with an extensive background in tech. Well versed in criminal proceedings and dedicated to exposing corruption in the legal system. Possible associates [SEE TAYLOR, TOBER]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Morgan Briggs</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>UK</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>MUZIK</AFFILIATION>
+<POWER>Sound Manipulation</POWER>
+<PROFILE>Affiliated with ‘MUZIK’ group, a club for music fans. Can be found DJing late at night downtown. Known for her euphoric, emotion altering music. [SEE DAVIS, HARRIS, JARAMILLO]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Dylan Cantu</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>USA</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>N/A</AFFILIATION>
+<POWER>Electricity</POWER>
+<PROFILE>[Newly discovered metahuman!] Eyewitness reports describe seeing an individual at the gym discharge an electric current, shorting out all of the equipment on site. Operatives were deployed to assess the situation.</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Cooper Davis</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>MUZIK</AFFILIATION>
+<POWER>Superhuman Hearing</POWER>
+<PROFILE>Affiliated with ‘MUZIK’ group, a club for music fans. Avid concert attendee, typically keeps a low profile. Has a knack for identifying instruments on a track. [SEE BRIGGS, HARRIS, JARAMILLO]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Mackenzie Harris</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>MUZIK</AFFILIATION>
+<POWER>Echolocation</POWER>
+<PROFILE>Affiliated with ‘MUZIK’ group, a club for music fans. Works in the music industry alongside several prolific artists and record labels. Has a keen sense of direction. [SEE BRIGGS, DAVIS, JARAMILLO]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Isabel Jaramillo</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>MUZIK</AFFILIATION>
+<POWER>Sonic Frequency</POWER>
+<PROFILE>Affiliated with ‘MUZIK’ group, a club for music fans. Music lover and family-oriented, keeps a low profile. Can "encrypt" sound waves by adjusting the frequency to the listener. [SEE BRIGGS, DAVIS, HARRIS]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Dave Lopez Rodriguez</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>N/A</AFFILIATION>
+<POWER>Precognition</POWER>
+<PROFILE>[Newly discovered metahuman!] Video game tournament and esports champion. Recently involved in a scandal involving other contestants who accused him of cheating. After reviewing tournament footage, our experts strongly suspect the individual uses an ability to aid him.</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Marco Ortiz</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>SENTRY</AFFILIATION>
+<POWER>Indestructible</POWER>
+<PROFILE>Former vigilante who has settled down to start a family. Sources indicate he has recently begun secretly supplying equipment to metahuman ‘Sentry.’ Part of a possible triad. [SEE SILVA, SALINAS]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Francis Richards</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>N/A</AFFILIATION>
+<POWER>Creation, Atomic Manipulation</POWER>
+<PROFILE>[Newly discovered metahuman!] Altruistic and well-loved by his community. Known locally as a talented craftsman. No records indicate where he sources his materials. It is suspected he (literally) makes everything from scratch.</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Adan Rubio</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>N/A</AFFILIATION>
+<POWER>Time Travel</POWER>
+<PROFILE>[Newly discovered metahuman!] Vintage car collector. After investigation, our agents determined that (somehow) he had acquired several discontinued and long forgotten car models extending back into the 1800s. Agents were also able to compile a dossier of centuries-old photographs possibly depicting the subject.</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Ashley Salinas</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>SENTRY</AFFILIATION>
+<POWER>Intangibility (phasing)</POWER>
+<PROFILE>Known as ‘Sentry.’ Can be seen ‘dispensing justice’ on the streets on her motorcycle. In just 4 months, she has already become a local legend amongst civilians. Tapped into the TOBER surveillance network, as she always arrives at crime scenes well before local officers can. [SEE ORTIZ, SILVA, TOBER]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Cailyn Serratt</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>N/A</AFFILIATION>
+<POWER>Plant manipulation, healing</POWER>
+<PROFILE>[Newly discovered metahuman!] Flower shop owner. Her exotic and vibrant collection of plants has boosted her business. Customers report feeling “renewed” after just a few moments in her store.</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Marilyn Silva</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>SENTRY</AFFILIATION>
+<POWER>Telepathy, persuasion</POWER>
+<PROFILE>Wealthy philanthropist and suspected benefactor to metahuman Sentry. Her well-known sympathies towards metahumans (along with her own metahuman condition) make her a target for extensive investigation. [SEE SILVA, SALINAS]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Michael Taylor</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>Hackers</AFFILIATION>
+<POWER>Imperception, Memory Wipe</POWER>
+<PROFILE>Little information available; seems to be covering his tracks. Likely hacker affiliation. Refers often to his “sisters,” but this could be a euphemism for his associates. Possible associates [SEE BARKER, TOBER]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Damien Tober</NAME>
-<BASE>[UNKNOWN]</BASE>
-<POWER>JP</POWER>
-<PROFILE>Small note 1.</PROFILE>
+<AFFILIATION>Hackers</AFFILIATION>
+<POWER>Mental Digital Manipulation</POWER>
+<PROFILE>Cyber vigilante with connections to the entertainment industry. Has been known to inject tracker code into online streaming services as part of his growing surveillance project. (While the project has improved emergency services response time, it is a huge violation of civilian privacy…) Possible associates [SEE BARKER, TAYLOR, SALINAS]</PROFILE>
 </STUDENT>
 </DATABASE>

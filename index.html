@@ -5,122 +5,135 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <title>Metahuman Database</title>
 </head>
 
 <body>
     <section class="all-content">
-        <!-- Login Page -->
-        <!-- <div class="intro"> -->
-        <!-- <h1>Access Database</h1>
-        <button>Login</button>
-        </div> -->
-
         <!-- Database Area -->
-        <!-- <div class="databaselist fadeOut"> -->
+        <div class="databaselist fadeOut">
 
-        <!-- NAVIGATION -->
-        <nav>
-            <div class="topbar">
-                <div class="navtitle">
-                    <img src="assets/spade.jpg" alt="spade" width="50px">
-                    <h1>Metahuman Intelligence Bureau</h1>
-                </div>
-                <div class="links">
-                    <ul>
-                        <li><a href="https://www.jw.org">One</a></li>
-                        <li><a href="https://www.jw.org">Two</a></li>
-                        <li><a href="https://www.jw.org">Three</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="subtitle">
-                <h2>Metahuman Database</h2>
-            </div>
-        </nav>
-
-        <!-- DATABASE INFORMATION -->
-        <div class="database-info">
-            <p>
-                These are words. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Excepturi laboriosam nemo praesentium eaque ex
-                atque iste cupiditate, reprehenderit vel tenetur consequuntur,
-                necessitatibus alias voluptatum quod blanditiis error, sit
-                asperiores nisi! Voluptatem mollitia omnis dolorum quos laborum
-                maxime, harum veniam earum magni eveniet aperiam quidem quam sunt
-                accusantium! Eum, beatae dolores? Ipsam, quo aperiam quam
-                delectus, saepe vero facilis quae deserunt magni ut illum
-                molestiae consequatur asperiores odio natus iure aspernatur eos
-                nobis ipsum necessitatibus blanditiis rerum? Tenetur reiciendis
-                laboriosam laborum voluptates perferendis facilis ea illum nemo
-                qui, cum eveniet magni reprehenderit necessitatibus commodi iusto
-                quaerat? Minus eum, autem nihil et ipsa asperiores harum quas eos
-                dolorem labore reprehenderit sint consequatur delectus deleniti at
-                dicta maiores veritatis accusamus ullam recusandae placeat. Enim
-                unde dignissimos dolore temporibus, provident nisi odio recusandae
-                hic optio repellat quis aperiam sit ratione neque esse error id
-                sed. Odit, ut. Tempora, corporis iure voluptatum dolorem porro
-                nemo, totam qui laborum veritatis voluptates accusamus placeat
-                doloremque explicabo omnis quia officia!
-            </p>
-        </div>
-
-        <!-- METAHUMAN PROFILE -->
-        <div class="floating-box">
-            <div class="profile-all">
-                <div class="profile-nav">
-                    <div class="profile-dropdown">
-                        <label for="metahuman">Select A Profile:</label>
-                        <input type="text" list="metahuman-database" name="metahuman" id="metahuman"
-                            onchange="profile(this)" />
-                        <datalist id="metahuman-database">
-                            <option value="BARKER, C"></option>
-                            <option value="BRIGGS, M"></option>
-                            <option value="CANTU, D"></option>
-                            <option value="DAVIS, C"></option>
-                            <option value="HARRIS, M"></option>
-                            <option value="JARAMILLO, I"></option>
-                            <option value="RODRIGUEZ, D"></option>
-                            <option value="ORTIZ, M"></option>
-                            <option value="RICHARDS, F"></option>
-                            <option value="RUBIO, A"></option>
-                            <option value="SALINAS, A"></option>
-                            <option value="SERRATT, C"></option>
-                            <option value="SILVA, M"></option>
-                            <option value="TAYLOR, M"></option>
-                            <option value="TOBER, D"></option>
-                        </datalist>
+            <!-- NAVIGATION -->
+            <nav>
+                <div class="topbar">
+                    <div class="navtitle">
+                        <img src="assets/spade.jpg" alt="spade" width="50px">
+                        <h1>Metahuman Intelligence Bureau</h1>
                     </div>
-                    <div class="faux-icons">Stuff and Such</div>
+                    <div class="links">
+                        <ul>
+                            <li class="user"><i>Hello, User_01</i></li>
+                            <li><a href="https://www.jw.org">One</a></li>
+                            <li><a href="https://www.jw.org">Two</a></li>
+                            <li><a href="https://www.jw.org">Three</a></li>
+                        </ul>
+                    </div>
                 </div>
 
-                <div id="profile-img"></div>
-                <table class="profile-text">
-                    <tr>
-                        <th colspan="2">Name</th>
-                    </tr>
-                    <tr>
-                        <td id="subject1" colspan="2"></td>
-                    </tr>
-                    <tr>
-                        <th>Base</th>
-                        <th>Power</th>
-                    </tr>
-                    <tr>
-                        <td id="subject2"></td>
-                        <td id="subject3"></td>
-                    </tr>
-                    <tr>
-                        <th colspan="2">Profile</th>
-                    </tr>
-                    <tr>
-                        <td id="subject4" colspan="2"></td>
-                    </tr>
-                </table>
+                <div class="subtitle">
+                    <h2>Metahuman Database</h2>
+                </div>
+            </nav>
+
+            <!-- DATABASE BACKSTORY -->
+            <div class="database-story">
+                <p>
+                    These are words. Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Excepturi laboriosam nemo praesentium eaque ex
+                    atque iste cupiditate, reprehenderit vel tenetur consequuntur,
+                    necessitatibus alias voluptatum quod blanditiis error, sit
+                    asperiores nisi! Voluptatem mollitia omnis dolorum quos laborum
+                    maxime, harum veniam earum magni eveniet aperiam quidem quam sunt
+                    accusantium! Eum, beatae dolores? Ipsam, quo aperiam quam
+                    delectus, saepe vero facilis quae deserunt magni ut illum
+                    molestiae consequatur asperiores odio natus iure aspernatur eos
+                    nobis ipsum necessitatibus blanditiis rerum? Tenetur reiciendis
+                    laboriosam laborum voluptates perferendis facilis ea illum nemo
+                    qui, cum eveniet magni reprehenderit necessitatibus commodi iusto
+                    quaerat? Minus eum, autem nihil et ipsa asperiores harum quas eos
+                    dolorem labore reprehenderit sint consequatur delectus deleniti at
+                    dicta maiores veritatis accusamus ullam recusandae placeat. Enim
+                    unde dignissimos dolore temporibus, provident nisi odio recusandae
+                    hic optio repellat quis aperiam sit ratione neque esse error id
+                    sed. Odit, ut. Tempora, corporis iure voluptatum dolorem porro
+                    nemo, totam qui laborum veritatis voluptates accusamus placeat
+                    doloremque explicabo omnis quia officia!
+                </p>
+            </div>
+
+            <!-- METAHUMAN PROFILE -->
+            <div class="container">
+                <div class="profile-all">
+                    <div class="profile-nav">
+                        <div class="profile-nav-dropdown">
+                            <label for="metahuman" class="bold-text">Select A Profile:</label>
+                            <input type="text" list="metahuman-database" name="metahuman" id="metahuman"
+                                onchange="profile(this)" />
+                            <datalist id="metahuman-database">
+                                <option value="BARKER, C"></option>
+                                <option value="BRIGGS, M"></option>
+                                <option value="CANTU, D"></option>
+                                <option value="DAVIS, C"></option>
+                                <option value="HARRIS, M"></option>
+                                <option value="JARAMILLO, I"></option>
+                                <option value="RODRIGUEZ, D"></option>
+                                <option value="ORTIZ, M"></option>
+                                <option value="RICHARDS, F"></option>
+                                <option value="RUBIO, A"></option>
+                                <option value="SALINAS, A"></option>
+                                <option value="SERRATT, C"></option>
+                                <option value="SILVA, M"></option>
+                                <option value="TAYLOR, M"></option>
+                                <option value="TOBER, D"></option>
+                            </datalist>
+                        </div>
+                        <div class="profile-nav-icons"><b>&#9473 &nbsp &#x2610 &nbsp &#x2715</b></div>
+                    </div>
+
+                    <div id="profile-img"></div>
+                    <table>
+                        <tr>
+                            <th colspan="2">Name</th>
+                        </tr>
+                        <tr>
+                            <td id="subject1" colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <th>Affiliation</th>
+                            <th>Power</th>
+                        </tr>
+                        <tr>
+                            <td id="subject2"></td>
+                            <td id="subject3"></td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">Profile</th>
+                        </tr>
+                        <tr>
+                            <td id="subject4" colspan="2"></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
         </div>
-        <!-- </div> -->
+
+        <!-- Login Page -->
+        <div class="login-screen">
+<h1> Metahuman Intelligence Bureau</h1>
+<h2>Agent Portal</h2>
+            <form id="login-form">
+                <input type="text" name="username" id="username" class="form-item" placeholder="Username...">
+                <br>
+                <input type="text" name="password" id="password" class="form-item" placeholder="Password...">
+                <br>
+                <button id="star">Login</button>
+            </form>
+
+        </div>
     </section>
 
     <script src="app.js"></script>

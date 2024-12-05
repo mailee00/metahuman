@@ -1,45 +1,89 @@
+/* BODY STYLING -----------------------------------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #e1e1e1;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
+.bold-text {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* INTRO SCREEN AND TRANSITION ----------------------------------------*/
 div.fadeOut {
     opacity: 0;
     pointer-events: none;
 }
+
 div.fadeIn {
     opacity: 1;
     pointer-events: all;
 }
 
-.intro, .databaselist {
+.login-screen,
+.databaselist {
     transition: opacity 0.5s ease 0.5s;
 }
 
+.login-screen {
+    background-color: red;
+    height: 15rem;
+    width: 25rem;
+    text-align: center;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#login-form {
+    margin-top: 20px;
+}
+
+#star {
+    margin-top: 20px;
+    padding: 3px;
+    border: 1px solid black;
+}
+.form-item {
+    margin: 5px;
+    padding: 3px;
+    border: 2px solid black;
+}
+/* NAVIGATION --------------------------------------------- */
 nav {
     margin: 0;
 }
+
 .topbar {
     background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .navtitle {
     display: flex;
     align-items: center;
 }
 
 .links {
-    background-color: yellow;
+
     height: 100%;
     margin: 0;
     overflow: hidden;
 }
+
 .links ul {
     display: flex;
     list-style-type: none;
@@ -59,12 +103,31 @@ nav {
     background-color: forestgreen;
 }
 
-.floating-box {
-   padding: 50px;
+.user {
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0) !important;
+    padding: 0px 20px 0px 20px;
+}
+.subtitle {
+    text-align: center;
+    padding: 20px;
+}
+
+/* DATABASE BACKSTORY --------------------------------------------------- */
+.database-story {
+    background-color: mediumaquamarine;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* METAHUMAN PROFILE ----------------------------------------------- */
+.container {
+    padding: 50px;
     background: rgb(255, 153, 50);
     align-content: center;
     justify-items: center;
 }
+
 .profile-all {
     width: 75vw;
     display: flex;
@@ -73,11 +136,6 @@ nav {
     background-color: gray;
 }
 
-.database-info {
-    background-color: mediumaquamarine;
-    padding: 10px;
-    margin-bottom: 10px;
- }
 .profile-nav {
     display: flex;
     flex-flow: row wrap;
@@ -85,33 +143,37 @@ nav {
     background-color: pink;
     width: 100%;
 }
-.faux-icons {
+
+.profile-nav-icons {
     background-color: mediumvioletred;
     padding: 5px;
     text-align: right;
 }
-.profile-dropdown {
+
+.profile-nav-dropdown {
     background-color: red;
     padding: 5px;
- text-align: left;
- }
- 
+    text-align: left;
+}
+
 #profile-img {
     aspect-ratio: 1/1;
     height: 18rem;
     max-height: 18rem;
-    background-image: url(assets/flowers.jpg);
+    background-image: url(assets/user-icon.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 table {
-    flex-grow: 3;
+    flex: 1;
     min-width: 300px;
     border-spacing: 5px;
     background-color: plum;
 }
 
-td, th {
+td,
+th {
     border: 2px solid black;
     border-radius: 7px;
     margin: 5px;
@@ -122,4 +184,12 @@ td, th {
 th {
     border: none;
     text-align: left;
+}
+
+@media screen and (max-width: 1304px) {
+    table {
+        flex: none;
+        max-width: 100%;
+        width: 100%;
+    }
 }
