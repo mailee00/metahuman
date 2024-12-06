@@ -7,16 +7,29 @@
 }
 
 body {
-    background-color: #e1e1e1;
+    height: 100vh;
     font-family: "PT Sans", sans-serif;
+    font-size: 1.1rem;
     font-weight: 400;
     font-style: normal;
+    background-image: radial-gradient(#26272d, #000);
 }
 
 .bold-text {
     font-family: "PT Sans", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
+
+.official-head {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+.sechead {
+    font-size: 1.2rem;
 }
 
 /* INTRO SCREEN AND TRANSITION ----------------------------------------*/
@@ -36,16 +49,22 @@ div.fadeIn {
 }
 
 .login-screen {
-    background-color: red;
-    height: 15rem;
-    width: 25rem;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #0E1C3E;
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    min-height: 300px;
+    justify-content: space-around;
     text-align: center;
-    align-content: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 #login-form {
     margin-top: 20px;
 }
@@ -55,10 +74,75 @@ div.fadeIn {
     padding: 3px;
     border: 1px solid black;
 }
+
 .form-item {
     margin: 5px;
     padding: 3px;
     border: 2px solid black;
+}
+
+.databaselist {
+    height: 100vh;
+}
+
+#bg-vid {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav,
+.database-story,
+.container,
+footer {
+    position: relative;
+}
+
+.mib-login-logo {
+    width: 150px;
+    height: auto;
+    border-radius: 100%;
+    border: 3px solid #3d73ca;
+    outline: 3px solid white;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+}
+
+.login-right {
+    align-content: center;
+    border-left: 3px solid rgb(255, 255, 255);
+    padding-left: 50px;
+}
+
+.login-right h2 {
+    text-align: left;
+    color: white;
+}
+.login-left {
+    color: white;
+}
+
+.login-right input {
+    height: 3rem;
+    width: 15rem;
+    font-size: 1.2rem;
+    border-radius: 7px;
+}
+
+.login-right button {
+    width: 7rem;
+    font-size: 1.2rem;
+    margin-top: 10px !important;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-right button:hover {
+    background: #e7a811;
 }
 /* NAVIGATION --------------------------------------------- */
 nav {
@@ -66,7 +150,7 @@ nav {
 }
 
 .topbar {
-    background-color: red;
+    background-color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +158,9 @@ nav {
 
 .navtitle {
     display: flex;
+    gap: 10px;
     align-items: center;
+    color: #fff;
 }
 
 .links {
@@ -89,43 +175,73 @@ nav {
     list-style-type: none;
 }
 
-.links li {
-    background: mediumaquamarine;
-}
-
 .links a {
     display: block;
     padding: 18px 18px;
+    background: #222222;
+    color: #fff;
+    transition: 0.3s;
+    text-decoration: none;
 
 }
 
 .links a:hover {
-    background-color: forestgreen;
+    background-color: #3d65a6;
+    color: #000;
 }
 
 .user {
     align-content: center;
     background-color: rgba(0, 0, 0, 0) !important;
+    color: #fff;
     padding: 0px 20px 0px 20px;
 }
+
 .subtitle {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    background-color: #4a4a4a;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.5);
+
+
+}
+
+footer {
+    height: 10px;
 }
 
 /* DATABASE BACKSTORY --------------------------------------------------- */
 .database-story {
-    background-color: mediumaquamarine;
-    padding: 10px;
+    background-color: #3d65a6;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 70px 70px;
+    padding: 20px 50px 20px 60px;
+margin: 0 auto;
+    width: 80%;
+}
+
+#message-head {
     margin-bottom: 10px;
 }
 
+#message-body {
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+}
+.database-story h4 {
+    margin-bottom: 10px;
+}
 /* METAHUMAN PROFILE ----------------------------------------------- */
 .container {
-    padding: 50px;
-    background: rgb(255, 153, 50);
+    margin: 3rem;
+    padding: 2rem;
+    min-width: 420px;
+    border: 3px solid #3d65a6;
+    border-radius: 15px;
     align-content: center;
     justify-items: center;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .profile-all {
@@ -133,27 +249,37 @@ nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: gray;
+    border-radius: 3px;
+    outline: 3px outset #fff;
+    outline-offset: 7px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .profile-nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    background-color: pink;
+    background-color: #4a4a4a;
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
 }
 
 .profile-nav-icons {
-    background-color: mediumvioletred;
+    background-color: #4a4a4a;
+    color: #969696;
     padding: 5px;
     text-align: right;
+    border-top-right-radius: 10px;
+
 }
 
 .profile-nav-dropdown {
-    background-color: red;
     padding: 5px;
-    text-align: left;
+    padding-right: 20px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #a3a3a3;
 }
 
 #profile-img {
@@ -166,15 +292,18 @@ nav {
 }
 
 table {
+    table-layout: fixed;
     flex: 1;
     min-width: 300px;
     border-spacing: 5px;
-    background-color: plum;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
 }
 
 td,
 th {
-    border: 2px solid black;
+    border: 2px solid #fff;
     border-radius: 7px;
     margin: 5px;
     padding: 5px;
@@ -186,10 +315,29 @@ th {
     text-align: left;
 }
 
+td {
+    width: 25%;
+}
+
 @media screen and (max-width: 1304px) {
     table {
         flex: none;
         max-width: 100%;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .login-right {
+        width: 100%;
+        padding-left: 0px;
+        border-left: none;
+        border-top: 3px solid #fff;
+        padding-top: 10px;
+        margin-top: 30px;
+    }
+
+    .login-right h2 {
+        text-align: center;
     }
 }

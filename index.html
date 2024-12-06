@@ -9,59 +9,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <title>Metahuman Database</title>
 </head>
 
 <body>
     <section class="all-content">
         <!-- Database Area -->
-        <div class="databaselist fadeOut">
+        <div class="databaselist fadeOut ">
+
+            <!-- VIDEO? -->
+            <video autoplay loop id="bg-vid">
+                <source src="assets/digital_globe_bg.mp4" type="video/mp4">
+            </video>
 
             <!-- NAVIGATION -->
             <nav>
                 <div class="topbar">
                     <div class="navtitle">
-                        <img src="assets/spade.jpg" alt="spade" width="50px">
-                        <h1>Metahuman Intelligence Bureau</h1>
+                        <img src="assets/mib_logo.png" alt="mib logo" width="50px">
+                        <h1 class="official-head">Metahuman Intelligence Bureau</h1>
                     </div>
                     <div class="links">
                         <ul>
                             <li class="user"><i>Hello, User_01</i></li>
-                            <li><a href="https://www.jw.org">One</a></li>
-                            <li><a href="https://www.jw.org">Two</a></li>
-                            <li><a href="https://www.jw.org">Three</a></li>
+                            <li><a href="https://www.cdc.gov/" target="_blank">CDC</a></li>
+                            <li><a href="https://www.fbi.gov/" target="_blank">FBI</a></li>
+                            <li><a href="https://www.dhs.gov/" target="_blank">DHS</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="subtitle">
-                    <h2>Metahuman Database</h2>
+                    <h2 class="official-head" style="font-variant: none !important;">METAHUMAN DATABASE</h2>
                 </div>
             </nav>
 
             <!-- DATABASE BACKSTORY -->
             <div class="database-story">
-                <p>
-                    These are words. Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Excepturi laboriosam nemo praesentium eaque ex
-                    atque iste cupiditate, reprehenderit vel tenetur consequuntur,
-                    necessitatibus alias voluptatum quod blanditiis error, sit
-                    asperiores nisi! Voluptatem mollitia omnis dolorum quos laborum
-                    maxime, harum veniam earum magni eveniet aperiam quidem quam sunt
-                    accusantium! Eum, beatae dolores? Ipsam, quo aperiam quam
-                    delectus, saepe vero facilis quae deserunt magni ut illum
-                    molestiae consequatur asperiores odio natus iure aspernatur eos
-                    nobis ipsum necessitatibus blanditiis rerum? Tenetur reiciendis
-                    laboriosam laborum voluptates perferendis facilis ea illum nemo
-                    qui, cum eveniet magni reprehenderit necessitatibus commodi iusto
-                    quaerat? Minus eum, autem nihil et ipsa asperiores harum quas eos
-                    dolorem labore reprehenderit sint consequatur delectus deleniti at
-                    dicta maiores veritatis accusamus ullam recusandae placeat. Enim
-                    unde dignissimos dolore temporibus, provident nisi odio recusandae
-                    hic optio repellat quis aperiam sit ratione neque esse error id
-                    sed. Odit, ut. Tempora, corporis iure voluptatum dolorem porro
-                    nemo, totam qui laborum veritatis voluptates accusamus placeat
-                    doloremque explicabo omnis quia officia!
+                <h3 id="message-head">[!] Message from Director Lee</h3>
+                <h4>Dec. 6, 2024</h4>
+                <p id="message-body">
+                    "To all Agents, Operatives, Administration, and Board Members: <br>
+                    This year we've seen an unusual uptick in metahuman activity. This new strain is correlated to
+                    IMED-gene activation, but we aren't sure of what the catalyst may be. Nevertheless, the good men and
+                    women of the M.I.B are dedicated to ensuring domestic security in the face of such threats.
+                    While the majority of civilians with the gene lead quiet lives, there is an unsettling subset of
+                    metahumans with an alarming predisposition toward vigilantism.
+                    It's up to us to stamp out the antics of these dangerous individuals. This precautionary
+                    database ensures no high-risk metahuman goes unchecked."
                 </p>
             </div>
 
@@ -94,24 +94,25 @@
                         <div class="profile-nav-icons"><b>&#9473 &nbsp &#x2610 &nbsp &#x2715</b></div>
                     </div>
 
+
                     <div id="profile-img"></div>
                     <table>
                         <tr>
-                            <th colspan="2">Name</th>
+                            <th colspan="2">NAME</th>
                         </tr>
                         <tr>
                             <td id="subject1" colspan="2"></td>
                         </tr>
                         <tr>
-                            <th>Affiliation</th>
-                            <th>Power</th>
+                            <th>AFFILIATION</th>
+                            <th>POWER</th>
                         </tr>
                         <tr>
                             <td id="subject2"></td>
                             <td id="subject3"></td>
                         </tr>
                         <tr>
-                            <th colspan="2">Profile</th>
+                            <th colspan="2">PROFILE</th>
                         </tr>
                         <tr>
                             <td id="subject4" colspan="2"></td>
@@ -119,19 +120,29 @@
                     </table>
                 </div>
             </div>
+            <footer></footer>
         </div>
 
         <!-- Login Page -->
         <div class="login-screen">
-<h1> Metahuman Intelligence Bureau</h1>
-<h2>Agent Portal</h2>
-            <form id="login-form">
-                <input type="text" name="username" id="username" class="form-item" placeholder="Username...">
-                <br>
-                <input type="text" name="password" id="password" class="form-item" placeholder="Password...">
-                <br>
-                <button id="star">Login</button>
-            </form>
+            <div class="login-left">
+                <img src="assets/mib_logo.png" alt="mib logo" class="mib-login-logo">
+                <h1 class="official-head"> M.I.B.</h1>
+                <h2 class="official-head sechead" style="font-variant: none !important;">Agent Portal</h2>
+
+            </div>
+            <div class="login-right">
+                <h2>Login</h2>
+                <form id="login-form">
+                    <input type="text" name="username" id="username" class="form-item" placeholder="Username...">
+                    <br>
+                    <input type="password" name="password" id="password" class="form-item" placeholder="Password...">
+                    <br>
+                    <button id="star">Login</button>
+                </form>
+
+            </div>
+
 
         </div>
     </section>
