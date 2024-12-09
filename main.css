@@ -121,6 +121,7 @@ footer {
     text-align: left;
     color: white;
 }
+
 .login-left {
     color: white;
 }
@@ -144,6 +145,7 @@ footer {
 .login-right button:hover {
     background: #e7a811;
 }
+
 /* NAVIGATION --------------------------------------------- */
 nav {
     margin: 0;
@@ -216,7 +218,7 @@ footer {
     box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 0px 0px 70px 70px;
     padding: 20px 50px 20px 60px;
-margin: 0 auto;
+    margin: 0 auto;
     width: 80%;
 }
 
@@ -229,9 +231,11 @@ margin: 0 auto;
     text-align: center;
     font-style: italic;
 }
+
 .database-story h4 {
     margin-bottom: 10px;
 }
+
 /* METAHUMAN PROFILE ----------------------------------------------- */
 .container {
     margin: 3rem;
