@@ -8,7 +8,7 @@ starProceed.addEventListener("click", (e) => {
   const username = loginForm.username.value;
   const password = loginForm.password.value;
 
-  if (username == "1" && password == "2") {
+  if (username == "imed" && password == "final") {
     loginScreen.classList.add("fadeOut");
   metaDatabase.classList.add("fadeIn");
   console.log("Help");

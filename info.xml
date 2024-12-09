@@ -39,7 +39,7 @@
 <NAME>Dave Lopez Rodriguez</NAME>
 <AFFILIATION>N/A</AFFILIATION>
 <POWER>Precognition</POWER>
-<PROFILE>[Newly discovered metahuman!] Video game tournament and esports champion. Recently involved in a scandal involving other contestants who accused him of cheating. After reviewing tournament footage, our experts strongly suspect the individual uses an ability to aid him.</PROFILE>
+<PROFILE>[Newly discovered metahuman!] Video game tournament and esports champion. Recently involved in a scandal involving other contestants who accused him of cheating. After reviewing tournament footage, our experts strongly suspect the individual uses an ability to anticipate his opponents' moves.</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Marco Ortiz</NAME>
@@ -50,7 +50,7 @@
 <STUDENT>
 <NAME>Francis Richards</NAME>
 <AFFILIATION>N/A</AFFILIATION>
-<POWER>Creation, Atomic Manipulation</POWER>
+<POWER>Creation (atomic manipulation)</POWER>
 <PROFILE>[Newly discovered metahuman!] Altruistic and well-loved by his community. Known locally as a talented craftsman. No records indicate where he sources his materials. It is suspected he (literally) makes everything from scratch.</PROFILE>
 </STUDENT>
 <STUDENT>
@@ -63,13 +63,13 @@
 <NAME>Ashley Salinas</NAME>
 <AFFILIATION>SENTRY</AFFILIATION>
 <POWER>Intangibility (phasing)</POWER>
-<PROFILE>Known as ‘Sentry.’ Can be seen ‘dispensing justice’ on the streets on her motorcycle. In just 4 months, she has already become a local legend amongst civilians. Tapped into the TOBER surveillance network, as she always arrives at crime scenes well before local officers can. [SEE ORTIZ, SILVA, TOBER]</PROFILE>
+<PROFILE>Known as ‘Sentry.’ Can be seen ‘dispensing justice’ on the streets on her motorcycle. In just 4 months, she has already become a local legend amongst civilians. Her abilities have made her nearly impossible to capture. [SEE ORTIZ, SILVA]</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Cailyn Serratt</NAME>
 <AFFILIATION>N/A</AFFILIATION>
 <POWER>Plant manipulation, healing</POWER>
-<PROFILE>[Newly discovered metahuman!] Flower shop owner. Her exotic and vibrant collection of plants has boosted her business. Customers report feeling “renewed” after just a few moments in her store.</PROFILE>
+<PROFILE>[Newly discovered metahuman!] Flower shop owner. Her exotic and vibrant collection of plants has boosted her business's sales. Customers report feeling “renewed” after just a few moments in her store.</PROFILE>
 </STUDENT>
 <STUDENT>
 <NAME>Marilyn Silva</NAME>
@@ -87,6 +87,6 @@
 <NAME>Damien Tober</NAME>
 <AFFILIATION>Hackers</AFFILIATION>
 <POWER>Mental Digital Manipulation</POWER>
-<PROFILE>Cyber vigilante with connections to the entertainment industry. Has been known to inject tracker code into online streaming services as part of his growing surveillance project. (While the project has improved emergency services response time, it is a huge violation of civilian privacy…) Possible associates [SEE BARKER, TAYLOR, SALINAS]</PROFILE>
+<PROFILE>Cyber vigilante with connections to the entertainment industry. Has been known to inject tracker code into online streaming services as part of his growing surveillance project. (While the project has improved emergency service response times, it is a huge violation of civilian privacy.) Possible associates [SEE BARKER, TAYLOR]</PROFILE>
 </STUDENT>
 </DATABASE>
